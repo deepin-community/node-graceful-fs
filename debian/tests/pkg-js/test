@@ -1,0 +1,3 @@
+mkdir -p whatevers
+tap `ls test/*.js|grep -v test/avoid-memory-leak.js|grep -v test/close.js|grep -v test/readdir-options.js|grep -v test/stats-uid-gid.js`
+rm -rf whatevers

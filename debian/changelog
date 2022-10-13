@@ -1,0 +1,158 @@
+node-graceful-fs (4.2.4+repack-1) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Use dh-sequence-nodejs
+  * Embed @types/graceful-fs and repack
+
+ -- Xavier Guimard <yadd@debian.org>  Sun, 08 Nov 2020 16:17:08 +0100
+
+node-graceful-fs (4.2.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Thu, 30 Apr 2020 08:11:05 +0200
+
+node-graceful-fs (4.2.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.5.0
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * Remove useless and broken link (Closes: #951478)
+  * Use pkg-js-tools auto test & install
+  * Update copyright
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 17 Feb 2020 13:47:10 +0100
+
+node-graceful-fs (4.2.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Install files in /usr/share following new policy.
+  * Bump std-vers to 4.4.1.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 28 Oct 2019 08:29:34 +0100
+
+node-graceful-fs (4.2.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 19 Aug 2019 14:29:54 +0200
+
+node-graceful-fs (4.2.1-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 10 Aug 2019 12:39:24 +0200
+
+node-graceful-fs (4.2.0-2) unstable; urgency=medium
+
+  * Bump dh compat to 12 and drop d/compat.
+
+ -- Julien Puydt <jpuydt@debian.org>  Sat, 27 Jul 2019 18:46:09 +0200
+
+node-graceful-fs (4.2.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Mark the package Multi-Arch: foreign following hinter.
+  * Bump std-ver to 4.4.0.
+
+ -- Julien Puydt <jpuydt@debian.org>  Mon, 08 Jul 2019 08:55:59 +0200
+
+node-graceful-fs (4.1.15-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh packaging:
+    - Update dates in d/copyright and use my debian.org address.
+    - Bump dh compat to 11.
+    - Move to section javascript.
+    - Bump std-ver to 4.3.0.
+    - Bump d/watch to version 4.
+    - Move to priority optional.
+    - Point Vcs-* fields to salsa.
+  * Make the tests run at build-time.
+  * Add trivial autopkgtest.
+
+ -- Julien Puydt <jpuydt@debian.org>  Tue, 16 Apr 2019 11:57:36 +0200
+
+node-graceful-fs (4.1.11-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Tue, 29 Nov 2016 08:27:37 +0100
+
+node-graceful-fs (4.1.10-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 06 Nov 2016 10:19:19 +0100
+
+node-graceful-fs (4.1.9-1) unstable; urgency=medium
+
+  * Team upload.
+  * Push standards-version to 3.9.8.
+  * Push dh compat to 10.
+  * Remove cruft from d/control and d/rules.
+  * Use https for Vcs-* fields.
+  * New upstream release. (Closes: #840923)
+  * Add myself to uploaders.
+  * Update d/copyright to the new license.
+
+ -- Julien Puydt <julien.puydt@laposte.net>  Sun, 30 Oct 2016 08:16:45 +0100
+
+node-graceful-fs (3.0.2-1) unstable; urgency=medium
+
+  * Imported Upstream version 3.0.2
+  * Standards-Version: 3.9.5
+  * Build-Depends nodejs
+  * Install fs.js, package.json
+  * Move to pkg-javascript
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 29 Jul 2014 02:48:07 +0200
+
+node-graceful-fs (2.0.0-2) unstable; urgency=low
+
+  * links: fix paths
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 17 Aug 2013 09:43:16 +0200
+
+node-graceful-fs (2.0.0-1) unstable; urgency=low
+
+  * Upstream update
+  * copyright:
+    + Add Mike Gabriel as copyright holder to debian/* files.
+    + switch to BSD-2-clause for both upstream and debian/* files
+  * control:
+    + canonicalize Vcs fields
+    + Standards-Version 3.9.4
+    + drop version on nodejs dependency
+
+ -- Jérémy Lal <kapouer@melix.org>  Thu, 15 Aug 2013 15:46:55 +0200
+
+node-graceful-fs (1.2.1-1) unstable; urgency=low
+
+  * New upstream release.
+
+ -- Mike Gabriel <sunweaver@debian.org>  Mon, 27 May 2013 01:10:14 +0200
+
+node-graceful-fs (1.2.0-1) experimental; urgency=low
+
+  * Upstream update.
+  * Use github url in watch file.
+
+ -- Jérémy Lal <kapouer@melix.org>  Fri, 22 Mar 2013 01:09:17 +0100
+
+node-graceful-fs (1.1.8-1) unstable; urgency=low
+
+  * Upstream update.
+    Does not require fast-list. Closes:#667017.
+  * Fix watch file.
+
+ -- Jérémy Lal <kapouer@melix.org>  Tue, 20 Mar 2012 00:47:28 +0100
+
+node-graceful-fs (1.1.5-1) unstable; urgency=low
+
+  * Initial release (Closes: #664230)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 17 Mar 2012 23:39:14 +0100
