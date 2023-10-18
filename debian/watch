@@ -1,8 +1,8 @@
 version=4
-opts=dversionmangle=auto,filenamemangle=s/.*\/v?([\d\.-]+)\.tar\.gz/node-graceful-fs-$1.tar.gz/ \
-https://github.com/isaacs/node-graceful-fs/tags .*/archive/v?([\d\.]+).tar.gz
+opts=dversionmangle=auto,filenamemangle=s/.*?(\d[\d\.-]*@ARCHIVE_EXT@)/node-graceful-fs-$1/ \
+https://github.com/isaacs/node-graceful-fs/tags .*/archive/.*/v?([\d\.]+).tar.gz
 
 # It is not recommended use npmregistry. Please investigate more.
 # Take a look at https://wiki.debian.org/debian/watch/
-opts="searchmode=plain,component=types-graceful-fs,pgpmode=none" \
+opts="searchmode=plain,ctype=nodejs,component=types-graceful-fs,pgpmode=none" \
  https://registry.npmjs.org/@types/graceful-fs https://registry.npmjs.org/@types/graceful-fs/-/graceful-fs-([\d\.]+)@ARCHIVE_EXT@ ignore
