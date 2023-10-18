@@ -1,3 +1,22 @@
+node-graceful-fs (4.2.10-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Julien Puydt <jpuydt@debian.org>  Fri, 22 Apr 2022 18:42:10 +0200
+
+node-graceful-fs (4.2.9-1) unstable; urgency=medium
+
+  * Team upload
+  * Add ctype=nodejs to component(s)
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed
+  * Fix filenamemangle
+  * Drop dependency to nodejs
+  * New upstream version 4.2.9 (Closes: #1007910)
+  * Update test
+
+ -- Yadd <yadd@debian.org>  Fri, 18 Mar 2022 14:03:16 +0100
+
 node-graceful-fs (4.2.4+repack-1) unstable; urgency=medium
 
   * Team upload

@@ -1,0 +1,8 @@
+test/avoid-memory-leak.js
+test/close.js
+test/do-not-break-if-chdir-is-missing.js
+test/readdir-options.js
+test/read-write-stream.js
+test/retry.js
+test/stats-uid-gid.js
+test/write-then-read.js

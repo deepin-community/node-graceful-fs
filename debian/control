@@ -9,7 +9,7 @@ Testsuite: autopkgtest-pkg-nodejs
 Build-Depends: debhelper-compat (= 13)
  , node-tap <!nocheck>
  , dh-sequence-nodejs
-Standards-Version: 4.5.0
+Standards-Version: 4.6.0
 Homepage: https://github.com/isaacs/node-graceful-fs
 Vcs-Git: https://salsa.debian.org/js-team/node-graceful-fs.git
 Vcs-Browser: https://salsa.debian.org/js-team/node-graceful-fs
@@ -19,7 +19,6 @@ Package: node-graceful-fs
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
- , nodejs
 Provides: ${nodejs:Provides}
 Description: drop-in replacement improving the Node.js fs module
  node-graceful-fs module normalizes behavior across different platforms
